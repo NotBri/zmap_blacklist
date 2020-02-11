@@ -7,7 +7,8 @@ Anti Abuse &amp; Anti Honey blacklist conf for zmap
 
 [https://raw.githubusercontent.com/iBriBri/zmap_blacklist/master/iBlacklist.conf](https://raw.githubusercontent.com/iBriBri/zmap_blacklist/master/iBlacklist.conf)
 
-like `wget --no-check-certificate -qO https://raw.githubusercontent.com/iBriBri/zmap_blacklist/master/iBlacklist.conf`
+like 
+`wget --no-check-certificate -qO- https://raw.githubusercontent.com/iBriBri/zmap_blacklist/master/iBlacklist.conf`
 
 ## For masscan:
 `masscan -p 80 0.0.0.0/0 --excludefile iBlacklist.conf -oL result.out`
