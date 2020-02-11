@@ -1,5 +1,5 @@
 # zmap_blacklist
-Anti Abuse &amp; Anti Honey blacklist conf for zmap
+Anti Abuse &amp; Anti Honeypot blacklist conf for zmap
 
 # How to Use?
 
